@@ -29,7 +29,7 @@ while True:
         print("Enter a correct choice.")
         continue
 
-
+    choice= choice.lower()
     random_number = random.randint(0,2)
     computer_choice = options[random_number]
 
