@@ -1,7 +1,7 @@
 import random
 
 print("Hai Buddy Welcome to Rock Paper Scissors")
-ready = input("Are you ready to play? ")
+ready = input("Are you ready to play? ").strip().lower()
 if ready != "yes":
     print("See you when you are ready to play!")
     quit()
